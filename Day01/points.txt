@@ -1,0 +1,52 @@
+Geopandas
+-----------
+conda install -c conda forge geopandas
+
+conda install geopandas
+
+
+https://github.com/colkiran/TomTom
+
+cities.columns
+Out[5]: Index(['NAME_4', 'geometry'], dtype='object')
+
+len(cities)
+Out[8]: 589
+
+
+ NAME_4                                           geometry
+0  Anderlecht  POLYGON ((143793.126 166452.379, 143610.878 16...
+1     Brussel  POLYGON ((147766.293 170637.180, 147826.869 17...
+2      Elsene  MULTIPOLYGON (((151867.674 167090.660, 151805....
+3   Etterbeek  POLYGON ((152732.322 169655.021, 152703.407 16...
+4       Evere  POLYGON ((153968.453 172252.061, 153885.348 17...
+
+
+Geopandas are installed in a virtual environment - base
+
+Vector Data Processing with Geopandas
+--------------------------------------
+refers to manipulation and analysis of geographic data represented as points, lines and polygons(vector data). use some library functions to perform operations like spatial joins, calculating distances, overlay analysis and other geometric calculations on this type of data all within pandas-like data frame structure.
+
+Key Points for Vector Data Processing in geopandas
+
+Data Structure
+-------------
+Geopandas will primarily use GeoDataFrames which are essential Pandas Dataframes with an additional column containing geometric shapes(points, lines, polygons) managed within the shapely library
+
+Geopandas provide building functions to perform spatial operations like
+
+1. Overlay Analysis - identifying areas where two geometries intersect (intersect, join, difference)
+
+2. Distance calculations : calculating distance between two points or lines
+
+3. spatial joins - combining data from multiple GeoDataFrames based on their spatial relationship
+
+4. Selection based on location : Filtering data based on spatial criteria (eg: selecting points within a specific polygon)
+
+Coordinate Reference System (CRS):
+GeoPandas allows you to manage the CRS of your data, ensuring proper spatial calculations based on the projection system used.
+
+
+
+
