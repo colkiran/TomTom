@@ -1,0 +1,131 @@
+Vector Data Processing with Geopandas
+--------------------------------------
+r'' - Raw string 
+
+import re
+
+st = "hello world"
+res = re.search(r'^hello', st)
+
+if res:
+    print("Match found....")
+else:
+    print("match not found....")
+
+
+--------------------------------------------------------------
+variable length arguments
+--------------------------
+
+def fun(*args):
+   print(args)
+   print(len(args))
+
+fun()
+fun(1)
+fun(1, 2)
+fun(1, 2, 3)
+fun(1, 2, 3, 4, 5)
+fun([[1, 2], [3, 4]])
+
+
+def fun1(**kwargs):
+   print(kwargs)
+
+
+gdf.columns
+Out[9]: 
+Index(['OBJECTID', 'DISTRICT', 'GaPa_NaPa', 'Type_GN', 'Province', 'SCode',
+       'DCode', 'SDD', 'MCode', 'length', 'area', 'SDDMM', 'Nepali',
+       'Shape_Leng', 'Shape_Area', 'geometry'],
+
+
+mapshaper.org
+
+municipality
+.dbf
+.prj
+.shp
+.shx
+
+
+
+
+<Geographic 2D CRS: EPSG:4326>
+Name: WGS 84
+Axis Info [ellipsoidal]:
+- Lat[north]: Geodetic latitude (degree)
+- Lon[east]: Geodetic longitude (degree)
+Area of Use:
+- undefined
+Datum: World Geodetic System 1984
+- Ellipsoid: WGS 84
+- Prime Meridian: Greenwich
+
+
+
+
+
+gdf.geom_type
+Out[23]: 
+0      Polygon
+1      Polygon
+2      Polygon
+3      Polygon
+4      Polygon
+  
+769    Polygon
+770    Polygon
+771    Polygon
+772    Polygon
+773    Polygon
+Length: 774, dtype: object
+
+
+
+
+gdf2.head()
+Out  [6]: 
+   OBJECTID  ...                                           geometry
+0         1  ...  POLYGON ((87.60718 27.37074, 87.60840 27.36974...
+1         2  ...  POLYGON ((87.50136 27.42931, 87.50406 27.42861...
+2         3  ...  POLYGON ((87.51006 27.56923, 87.50928 27.56793...
+3         4  ...  POLYGON ((87.68623 27.70966, 87.68668 27.70899...
+4         5  ...  POLYGON ((87.83464 27.95145, 87.83568 27.95148...
+
+
+
+gdf2.columns
+Out  [7]: 
+Index(['OBJECTID', 'DISTRICT', 'GaPa_NaPa', 'Type_GN', 'Province', 'SCode',
+       'DCode', 'SDD', 'MCode', 'length', 'area', 'SDDMM', 'Nepali',
+       'Shape_Leng', 'Shape_Area', 'geometry'],
+      dtype='object')
+
+
+C:\\Training\\PycharmProjects\\TomTom\\Output\\out_province.shp
+
+TASK
+----
+read the data from the web directly
+
+https://www.citypopulation.de/en/nepal/mun/admin/admin.php
+
+mydata.columns
+Out  [50]: 
+Index(['Name', 'Status', 'Transcription', 'Native',
+       'Population Census 2001-05-28', 'Population Census 2011-06-22',
+       'Population Census 2021-11-25', 'Unnamed: 7'],
+      dtype='object')
+
+"C:\\Training\\PycharmProjects\\TomTom\\Output\\mydata.xlsx"
+
+Assignment
+-----------
+Write the vectors with provinces as output.
+
+
+
+
+
+
