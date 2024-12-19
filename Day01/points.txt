@@ -48,5 +48,22 @@ Coordinate Reference System (CRS):
 GeoPandas allows you to manage the CRS of your data, ensuring proper spatial calculations based on the projection system used.
 
 
+------------------------------------------------------------------
+
+Geocoding Addresses with Python GeoPandas
+
+https://www.youtube.com/watch?v=AtyRmWdGhHE&list=PLLxyyob7YmEEbXc1R6Tc5YvVIAYPuvoMY&index=6
 
 
+
+============================================================================================
+
+Mapping the Coronavirus Cases in 2020 using Python GeoPandas and ArcGIS
+
+https://www.worldometers.info/coronavirus/
+
+
+https://www.youtube.com/watch?v=cxLht5KN3pQ&list=PLLxyyob7YmEEbXc1R6Tc5YvVIAYPuvoMY&index=9
+
+
+-----------------------------------------------------------------------------------------------
