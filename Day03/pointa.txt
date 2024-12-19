@@ -1,0 +1,51 @@
+Geopandas
+-----------
+
+st = "hello"
+
+st
+Out[11]: 'hello'
+
+"e" in st
+Out[12]: True
+
+ population_data.loc[index, 'district'] = population_data.loc[index]['Name'][start_index+1:end_index
+] 
+https://diva-gis.org/data.html
+
+C:\\Training\\PycharmProjects\\TomTom\\ShapeFiles\\NPL_adm3.shp
+
+ <class 'geopandas.geodataframe.GeoDataFrame'>
+
+
+NAME_3
+geometry
+
+
+Out  [20]: 
+<Geographic 2D CRS: GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84" ...>
+Name: WGS 84
+Axis Info [ellipsoidal]:
+- lon[east]: Longitude (Degree)
+- lat[north]: Latitude (Degree)
+Area of Use:
+- undefined
+Datum: World Geodetic System 1984
+- Ellipsoid: WGS 84
+- Prime Meridian: Greenwich
+
+
+population_data.replace('Sindhupalchowk',"Sindhupalchok", inplace= True)
+population_data.replace('Chitwan',"Chitawan", inplace= True)
+population_data.replace('Tehrathum',"Terhathum", inplace= True)
+population_data.replace('Dang Deukhuri',"Dang", inplace= True)
+population_data.replace('Tanahun',"Tanahu", inplace= True)
+population_data.replace('Kapilvastu',"Kapilbastu", inplace= True)
+
+https://medium.com/@haniszulaikha/starter-tutorial-on-geopandas-d3ede5cc16e9
+
+
+
+
+
+
