@@ -1,0 +1,93 @@
+Django
+-------
+Web application framework for Python
+
+
+what is a Web application?
+
+
+www.google.com
+ping www.google.com -t
+
+Scripts
+-------
+Client side script  - HTML, CSS, Javascript
+
+Server side script - Python, Ruby, PHP, JAVA 
+
+
+www.amazon.co.in/casio - search is actually performed by a python (search.py) file
+
+Python Web Applications
+-----------------------
+1. Flask
+2. Django
+3. Pyramid
+
+1. request => Business logic (Python) => Database (queryset)
+=> webpage(report)
+
+a. Business logic - Python, C#, PHP (Back end developers)
+b. Database  - Database
+c. Webpage  - HTML, CSS, JavaScript  (front end developers)
+
+Create a Project
+----------------
+1. First creates a virtual environment
+
+python -m virtualenv virtualenv_name
+
+cd Virtualenv_name
+cd Scripts
+
+activate.bat
+
+(Vitualenv_name) c:\myfolder\project
+
+deactivate.bat (scripts folder)
+
+-----------------------------------------------------------
+install Django
+
+pip install django
+
+1. create a project
+django-admin stratproject tomtom
+
+2. create a application inside the project
+
+routing
+--------
+www.tomtom/helloworld/hello.html
+
+tomtom
+-------
+under settings register the app helloworld
+installed_apps [add your appname]
+
+python manage.py runserver 
+
+
+HelloWorld
+----------
+urls.py -> hello.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
